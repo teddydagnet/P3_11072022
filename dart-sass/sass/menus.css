@@ -21,21 +21,21 @@
 }
 @-webkit-keyframes apparition_slider {
   0% {
-    transform: translateX(0px);
+    transform: translateX(25%);
     opacity: 0;
   }
   100% {
-    transform: translateX(-25%);
+    transform: translateX(0%);
     opacity: 1;
   }
 }
 @keyframes apparition_slider {
   0% {
-    transform: translateX(0px);
+    transform: translateX(25%);
     opacity: 0;
   }
   100% {
-    transform: translateX(-25%);
+    transform: translateX(0%);
     opacity: 1;
   }
 }
@@ -95,16 +95,41 @@ header i {
   width: 100%;
 }
 .menu__name h1 {
-  width: 70%;
+  width: 85%;
   font-size: 26px;
   font-family: "shrikhand", "sans-serif";
   margin-left: 5%;
 }
 .menu__name i {
-  width: 5%;
+  width: 10%;
   padding-left: 10%;
-  padding-top: 7%;
+  padding-top: 50%;
   font-size: 25px;
+}
+.menu__name .heart {
+  font-size: 24px;
+  cursor: pointer;
+  width: 15%;
+  padding-bottom: 10%;
+}
+.menu__name .heart i {
+  position: absolute;
+  top: 25%;
+  right: 3%;
+}
+.menu__name .heart #coeur_plein {
+  color: transparent;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+.menu__name .heart:active #coeur_plein {
+  opacity: 1;
+}
+.menu__name .heart:active #coeur_vide {
+  opacity: 0;
 }
 
 .entrees__names a {
@@ -120,6 +145,10 @@ header i {
 .desserts__names a {
   -webkit-animation: apparition_menus 3s;
           animation: apparition_menus 3s;
+}
+
+.entree__description {
+  width: 100%;
 }
 
 .entrees__names h2, .entrees__names h3, .entrees__names span, .plats__names h2, .plats__names h3, .plats__names span, .desserts__names h2, .desserts__names h3, .desserts__names span {
@@ -140,21 +169,29 @@ header i {
   color: #99E2D0;
 }
 .entrees__names h3, .plats__names h3, .desserts__names h3 {
+  width: 100%;
   margin-bottom: 1%;
   margin-top: 5%;
   margin-left: 3%;
   font-size: 18px;
   font-weight: bold;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .entrees__names .accompagnement, .plats__names .accompagnement, .desserts__names .accompagnement {
+  width: 100%;
   font-size: 15px;
   margin-left: 3%;
+  overflow: hidden;
 }
 .entrees__names p, .plats__names p, .desserts__names p {
+  width: 15%;
   font-size: 15px;
   font-weight: bold;
   margin-top: 12%;
-  margin-right: 3%;
+  margin-right: 0%;
 }
 .entrees__names a, .plats__names a, .desserts__names a {
   text-decoration: none;
@@ -173,26 +210,52 @@ header i {
 }
 .entrees__names a:hover, .plats__names a:hover, .desserts__names a:hover {
   box-shadow: 8px 8px 20px -11px #000000;
-  opacity: 70%;
+  opacity: 85%;
   text-overflow: ellipsis;
 }
 .entrees__names a .slider, .plats__names a .slider, .desserts__names a .slider {
-  width: 0%;
   background-color: #99E2D0;
   height: 70px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
+  width: 25%;
+  margin-right: -25%;
 }
-.entrees__names a .slider .icons, .plats__names a .slider .icons, .desserts__names a .slider .icons {
+.entrees__names a .slider .fas, .plats__names a .slider .fas, .desserts__names a .slider .fas {
   background-color: #99E2D0;
   color: white;
   font-size: 25px;
-  font-weight: bold;
-  margin-top: 25px;
-  margin-left: 25%;
+  margin-top: 35%;
+  margin-left: 30%;
 }
+.entrees__names .entree:hover .slider, .plats__names .entree:hover .slider, .desserts__names .entree:hover .slider {
+  margin-right: 0%;
+}
+.entrees__names .entree:hover .fas, .plats__names .entree:hover .fas, .desserts__names .entree:hover .fas {
+  -webkit-animation: rotate_slider 1s ease-in-out;
+          animation: rotate_slider 1s ease-in-out;
+}
+.entrees__names .plat:hover .slider, .plats__names .plat:hover .slider, .desserts__names .plat:hover .slider {
+  margin-right: 0%;
+}
+.entrees__names .plat:hover .fas, .plats__names .plat:hover .fas, .desserts__names .plat:hover .fas {
+  -webkit-animation: rotate_slider 1s ease-in-out;
+          animation: rotate_slider 1s ease-in-out;
+}
+.entrees__names .dessert:hover .slider, .plats__names .dessert:hover .slider, .desserts__names .dessert:hover .slider {
+  margin-right: 0%;
+}
+.entrees__names .dessert:hover .fas, .plats__names .dessert:hover .fas, .desserts__names .dessert:hover .fas {
+  -webkit-animation: rotate_slider 1s ease-in-out;
+          animation: rotate_slider 1s ease-in-out;
+}
+
 .entree__description, .plat__description, .dessert__description {
   width: 85%;
+  padding-right: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .commander .order {
