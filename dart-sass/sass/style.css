@@ -348,4 +348,78 @@ footer {
 }
 .footer_liens .fa-handshake-o {
   transform: rotate(-45deg);
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*VERSION TABLETTE*/
+
+@media screen and (min-width:767px) and (max-width:991px)
+{
+  .titre_logo h1
+  {
+    margin-top: 2%;
+    font-size: 34px;
+  }
+  .location_search i
+  {
+    padding-left: 37%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-size: 18px;
+  }
+  .location_search .input_search
+  {
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 18px;
+  }
+  .Presentation h2 
+  {
+   padding-top: 7%;
+  }
+  .Fonctionnement h2 
+  {
+   margin-top: 7%;
+  }
+  .number p {
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 16px;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 1%;
+  }
+  .number i
+  {
+    font-size: 20px;
+    padding-top: 4.5%;
+    padding-left: 7%;
+  }
+  .number span 
+  {
+    font-size: 18px;
+  }
+  .cardsrestaurants
+  {
+    
+    height: 1000px;
+  }
+  .cardsrestaurants h2
+  {
+    margin-top: 5%;
+    padding-top: 7%;
+  }
+  .cardsrestaurants .card
+  {
+    height: 400px;
+  }
+  .card .image
+  {
+    height: 350px;
+  }
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
