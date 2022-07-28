@@ -1,3 +1,5 @@
+/*variables*/
+
 $color-purple: #9356DC;
 $color-pink: #FF79DA;
 $color-blue:#99E2D0;
@@ -37,6 +39,10 @@ $linear:linear-gradient(#FF79DA ,#9356DC);
   }
 
 
+
+//body//
+
+
 body
 {
     font-family: "Roboto","sans-serif";
@@ -45,6 +51,9 @@ body
     margin: 0%;
     
 }
+
+//header//
+
 
 header
 {
@@ -73,6 +82,9 @@ header
         cursor: pointer;
     }
 }
+
+//main//
+
 
 .image
 {    
@@ -124,6 +136,7 @@ header
                 color: transparent;
                 background-image: $linear;
                 background-clip: text;
+                -moz-background-clip:text ;
                 -webkit-background-clip: text;
                 opacity: 0;
                 transition: all 1.5s ease-in-out;
