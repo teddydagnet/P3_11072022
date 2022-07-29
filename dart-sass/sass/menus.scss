@@ -469,6 +469,7 @@ padding-bottom: 20px;
  {
   width: 100%;
  }
+ 
  .entree__description h3
  {
   margin-top: 2%;
@@ -479,6 +480,14 @@ padding-bottom: 20px;
   font-size: 16px;
   
  }
+ .entrees__names a .slider .fas, .plats__names a .slider .fas, .desserts__names a .slider .fas
+  {
+    background-color: #99E2D0;
+    color: white;
+    font-size: 25px;
+    margin-top: 20%;
+    margin-left: 40%;
+}
  .entrees__names p
  {
  
@@ -545,7 +554,7 @@ padding-bottom: 20px;
  {
   width:25%;
  }
- .dessert__names a .slider .fas
+ .dessert__names a .slider .fass
  {
   margin-top: 20%;
   margin-left: 37%;
