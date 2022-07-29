@@ -541,18 +541,19 @@ footer h1 {
  margin-right: 0%;
  width: 70px;
  padding-right: 0%;
- font-size: 18px;
+ font-size: 22px;
  }
 
  .entrees__names a .slider
  {
   width:25%;
+  height: 90px;
  }
  .entrees__names a .slider .fas
  {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 40%;
-  font-size: 28px;
+  font-size: 30px;
  }
  .plats__names a
  {
@@ -587,20 +588,20 @@ footer h1 {
  margin-right: 0%;
  width: 70px;
  padding-right: 0%;
- font-size: 18px;
+ font-size: 22px;
  }
 
  .plats__names a .slider
  {
   width:25%;
+  height: 90px;
  }
  .plats__names a .slider .fas
  {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 40%;
-  font-size: 28px;
-
- }
+  font-size: 30px;
+ } 
  .desserts__names a
  {
   height: 90px;
@@ -634,18 +635,19 @@ footer h1 {
  margin-right: 0%;
  width: 70px;
  padding-right: 0%;
- font-size: 18px;
+ font-size: 22px;
  }
 
  .desserts__names a .slider
  {
   width:25%;
+  height: 90px;
  }
  .desserts__names a .slider .fas
  {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 40%;
-  font-size: 28px;
+  font-size: 30px;
  }
  .commander .order
  {
