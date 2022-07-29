@@ -353,8 +353,9 @@ footer h1 {
  }
   .menu__name i
  {
-  padding-top: 245px;
+  padding-top: 36.5%;
   margin-right: -5%;
+  font-size: 28px;
  }
  .entrees__names h2
  {
@@ -500,9 +501,9 @@ footer h1 {
  }
   .menu__name i
  {
-  padding-top: 36.5%;
+  padding-top: 40%;
   margin-right: -5%;
-  font-size: 28px;
+  font-size: 32px;
  }
  .entrees__names a
  {
@@ -550,6 +551,7 @@ footer h1 {
   margin-left: 40%;
   font-size: 28px;
  }
+ 
  .plats__names a
  {
   height: 90px;
@@ -672,5 +674,5 @@ footer h1 {
   height: 230px;
   background-color: rgb(57, 57, 57);
  }
-
+}
 /*# sourceMappingURL=menus.css.map */
