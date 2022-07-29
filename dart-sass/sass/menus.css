@@ -368,9 +368,10 @@ footer h1 {
   .menu__name h1 {
     margin-bottom: 0%;
   }
-  .menu__name i {
-    padding-top: 245px;
-    margin-right: -5%;
+  .menu__name .heart i {
+    position: absolute;
+    top: -16.5%;
+    right: -5%;
   }
   .entrees__names h2 {
     margin-top: 2%;
@@ -491,6 +492,11 @@ footer h1 {
   .menu__name h1 {
     margin-bottom: 0%;
     font-size: 30px;
+  }
+  .menu__name .heart i {
+    position: absolute;
+    top: -15%;
+    right: 3%;
   }
   .entrees__names a {
     height: 90px;

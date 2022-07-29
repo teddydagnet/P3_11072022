@@ -53,8 +53,6 @@ body
     width:100%;
     margin: 0%;
     height: 1800px;
-    
-    
 }
 
 //header//
@@ -456,11 +454,12 @@ padding-bottom: 20px;
  {
   margin-bottom: 0%;
  }
-  .menu__name i
+ .menu__name .heart i 
  {
-  padding-top: 245px;
-  margin-right: -5%;
- }
+    position: absolute;
+    top: -16.5%;
+    right: -5%;
+}
  .entrees__names h2
  {
   margin-top: 2%;
@@ -619,9 +618,11 @@ padding-bottom: 20px;
   margin-bottom: 0%;
   font-size: 30px;
  }
-  .menu__name i
+ .menu__name .heart i
  {
-  
+    position: absolute;
+    top: -15%;
+    right: 3%;
  }
  .entrees__names a
  {
