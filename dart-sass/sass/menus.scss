@@ -50,6 +50,7 @@ body
     width:100%;
     margin: 0%;
     
+    
 }
 
 //header//
@@ -85,21 +86,19 @@ header
 
 //main//
 
-
 .image
 {    
     width: 100%;
-    height:250px;
+    height:200px;
     object-fit:cover;
-   
 }
+
 
 .menu__name
 {
     display: flex;
     width: 100%;
-    
-    
+    padding-top: 2%;
 
     & h1
     {
@@ -114,8 +113,9 @@ header
     {
         width: 10%;
         padding-left: 10%;
-        padding-top:50%;
+        padding-top:35.5%;
         font-size: 25px;
+        margin-right: 4%;
     }
     
 
@@ -128,7 +128,7 @@ header
            
             & i{
                 position: absolute;
-                top:25%;
+                top:26%;
                 right:3%;              
             }
 
@@ -215,12 +215,8 @@ header
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-
-  
-        
     }
     
-
     & .accompagnement
     {
         width: 100%;
@@ -254,7 +250,6 @@ header
       border-radius: 15px; 
       box-shadow: 7px 7px 18px -11px #787878; 
       cursor: pointer;
-      
       overflow: hidden;
 
       &:hover
@@ -355,7 +350,7 @@ footer
 {
     
     background-color: rgb(57, 57, 57);
-    height: 250px;
+    height: 200px;
 
     & h1
     {
