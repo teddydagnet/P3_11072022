@@ -73,7 +73,6 @@ body
         background-color: $color-blue;
         animation: spinner 3s linear;
     }
-   
 }
 
 //header//
@@ -82,7 +81,6 @@ header
 {
     text-align: center;
 }
-
 
 .location_search
 { 
@@ -94,9 +92,7 @@ header
     padding-left: 27%;
     padding-top: 5%;
     box-shadow: 0px 8px 5px -7px rgba(150, 150, 150, 0.75) inset;
-     
     }               
-            
 }
 
 .input_search
@@ -131,8 +127,6 @@ header
         margin-bottom: 3%;
         padding-top: 12%;
         font-size: 22px;
-       
-       
     }
                         
     & p
@@ -140,11 +134,9 @@ header
     width: 95%;
     margin-left: 3%;
     margin-top: 0%;
-   
     font-size: 19px;  
     color:black;
     opacity: 75%;
-    
     }
 }
 
@@ -172,8 +164,6 @@ header
         opacity: 70%;
         }
     }
- 
-    
 }
 
 .presex
@@ -190,6 +180,7 @@ header
       
         width:95%;
     }
+
     & .Fonctionnement__number
     {
         width: 23px;
@@ -309,7 +300,6 @@ header
             border-top-left-radius: 16px ;
             border-top-right-radius: 16px;
             object-fit: cover;            
-            
             box-shadow: 7px 7px 18px -11px #787777;
         } 
         
@@ -334,7 +324,6 @@ header
             width: 90%;
             height: 47%;
             margin-left: 5%;
-            
             box-shadow: 7px 7px 18px -11px #787777;
         }
                     
@@ -369,11 +358,13 @@ header
             width: 15%;
             padding-bottom: 10%;
            
-            & i{
+            & i
+            {
                 position: absolute;              
             }
 
-            & #coeur_plein{
+            & #coeur_plein
+            {
                 color: transparent;
                 background-image: $linear;
                 background-clip: text;
@@ -381,11 +372,13 @@ header
                 opacity: 0;
                 transition: all 1.5s ease-in-out;
             }
-            &:active #coeur_plein{
+            &:active #coeur_plein
+            {
                 opacity: 1;
             }
 
-            &:active #coeur_vide{
+            &:active #coeur_vide
+            {
                 opacity: 0;
             }
         }
@@ -401,17 +394,14 @@ header
 
 footer
 {
-    
     background-color: rgb(57, 57, 57);
     height: 250px;
     
-    
 }
+
 .footer_liens
 {
-
     width: 100%;
-    
     color:white ;
     text-decoration: none;
     margin-bottom: -20px;
