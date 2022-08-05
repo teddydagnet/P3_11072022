@@ -105,6 +105,7 @@ header i {
   position: absolute;
   top: 246px;
   width: 100%;
+  height: 1500px;
 }
 
 .menu__name {
@@ -133,7 +134,7 @@ header i {
 }
 .menu__name .heart i {
   position: absolute;
-  top: 26%;
+  top: -6.7%;
   right: 3%;
 }
 .menu__name .heart #coeur_plein {
@@ -278,20 +279,24 @@ header i {
   text-overflow: ellipsis;
 }
 
-.commander .order {
-  margin-top: 10%;
-  margin-bottom: 20%;
-  margin-left: 25%;
+.commander a {
+  margin-left: 27%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  padding-left: 14%;
+  padding-right: 14%;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
+  height: 100px;
   border-style: hidden;
-  width: 50%;
-  height: 50px;
+  position: relative;
+  bottom: -60px;
+  width: 100%;
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 30px;
   box-shadow: 7px 7px 18px -11px #787777;
-  text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 .commander:hover {
@@ -370,7 +375,7 @@ footer h1 {
   }
   .menu__name .heart i {
     position: absolute;
-    top: -16.5%;
+    top: -15.5%;
     right: -5%;
   }
   .entrees__names h2 {
@@ -447,9 +452,25 @@ footer h1 {
     margin-top: 20%;
     margin-left: 37%;
   }
-  .commander .order {
-    margin-top: 5%;
-    margin-bottom: 10%;
+  .commander a {
+    margin-left: 29%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    height: 100px;
+    border-style: hidden;
+    position: relative;
+    bottom: -56px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 18px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 18px -11px #787777;
+    text-decoration: none;
+    cursor: pointer;
   }
   footer {
     background-color: rgb(57, 57, 57);
@@ -495,6 +516,7 @@ footer h1 {
     position: absolute;
     top: 450px;
     width: 100%;
+    height: 1800px;
   }
   .menu__name h1 {
     margin-bottom: 0%;
@@ -619,11 +641,25 @@ footer h1 {
     margin-left: 40%;
     font-size: 28px;
   }
-  .commander .order {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 24px;
-    height: 70px;
+  .commander a {
+    margin-left: 30%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    height: 100px;
+    border-style: hidden;
+    position: relative;
+    bottom: -56px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 18px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 18px -11px #787777;
+    text-decoration: none;
+    cursor: pointer;
   }
   footer {
     background-color: rgb(57, 57, 57);
